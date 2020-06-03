@@ -1,3 +1,8 @@
 # Pycharm files
 .idea/
 *.iml
+.ipynb_checkpoints
+.pytest_cache
+__pycache__
+*.ipynb
+*.pyc

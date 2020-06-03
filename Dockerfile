@@ -10,4 +10,4 @@ WORKDIR /app
 # Install python packages
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
-CMD ["python", "./run.py"]
+CMD ["sh","-c","make _test_project && python ./run.py"]

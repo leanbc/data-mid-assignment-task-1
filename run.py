@@ -131,4 +131,4 @@ except (Exception, psycopg2.Error) as error:
 finally:
     connection.close()
     logging.info('Pipeline Finished')
-    logging.info('Clossing Connection')
+    logging.info('Closing Connection')
